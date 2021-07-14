@@ -11,6 +11,19 @@ const StyledHeroSection = styled.section`
   align-items: flex-start;
   min-height: 100vh;
   padding: 0;
+  margin-top: 3vh;
+
+  @media only screen and (max-width: 350px) and (max-height: 600px) {
+    margin-top: 120px;
+  }
+
+  @media only screen and (max-width: 400px) and (min-height: 840px) {
+    margin-top: 3vh;
+  }
+
+  @media only screen and (min-width: 850px) and (min-height: 400px) {
+    margin-top: 10vh;
+  }
 
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
@@ -58,14 +71,16 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
+  /* 
+  I'm also passionate about building monitoring apps for critical processes though IoT.
+  */
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Helmer Barcos</h2>;
   const three = <h3 className="small-heading">I build bridges between humans and machines</h3>;
   const four = (
     <p>
-      I'm a Full Stack developer specializing in building scalable real-time applications. I'm also
-      passionate about building monitoring apps for critical processes though IoT. I'm able to
-      participate from the conceptualization phase of a project to its deployment in production.
+      I'm a Full Stack developer specializing in building scalable real-time applications. I'm able
+      to participate from the conceptualization phase of a project to its deployment in production.
       Currently i'm working halftime in the Free and Hanseatic City of Hamburg at{' '}
       <a href="https://www2.dataplan.de/" target="_blank" rel="noreferrer">
         Dataplan GmbH

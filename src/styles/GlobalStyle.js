@@ -160,7 +160,7 @@ const GlobalStyle = createGlobalStyle`
 
   .small-heading {
     margin: 0;
-    font-size: clamp(30px, 8vw, 60px);
+    font-size: clamp(30px, 6vw, 50px);
   }
 
   .numbered-heading {

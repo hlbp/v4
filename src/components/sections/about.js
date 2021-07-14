@@ -132,13 +132,15 @@ const About = () => {
     'NodeJS',
     'C/C++',
     'Swift',
-    'JavaScript (ES6+)',
+    'JavaScript',
     'Typescript',
     'ReactJS',
     'CI/CD',
     'Docker',
     'Kubernetes',
-    'Gitlab/Github',
+    'Gitlab',
+    'Github',
+    'Nginx',
   ];
 
   return (
@@ -149,10 +151,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Helmer and I enjoy building tools that allows a perfect
-              communication between humans and machines. My experience in web development started in
-              the summer of 2016 when I decided to learn how to develop applications for iOS with
-              swift.
+              My name is Helmer! <br></br>
+              <br></br>I am a Colombian guy living in Hamburg (Germany) and I enjoy building tools
+              that allows a perfect communication between humans and machines. My experience in web
+              development started in the summer of 2016 when I decided to learn how to develop
+              applications for iOS with swift.
             </p>
 
             {/* <p>
