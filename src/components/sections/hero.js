@@ -79,7 +79,7 @@ const Hero = () => {
   const three = <h3 className="small-heading">I build bridges between humans and machines</h3>;
   const four = (
     <p>
-      I'm a Full Stack developer specializing in building scalable real-time applications. I'm able
+      I'm a Full Stack Developer specializing in building scalable real-time applications. I'm able
       to participate from the conceptualization phase of a project to its deployment in production.
       Currently I am working halftime in the Free and Hanseatic City of Hamburg at{' '}
       <a href="https://www2.dataplan.de/" target="_blank" rel="noreferrer">
