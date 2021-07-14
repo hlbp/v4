@@ -158,6 +158,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 60px);
   }
 
+  .small-heading {
+    margin: 0;
+    font-size: clamp(30px, 8vw, 60px);
+  }
+
   .numbered-heading {
     display: flex;
     align-items: center;
