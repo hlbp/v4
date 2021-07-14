@@ -81,7 +81,7 @@ const Hero = () => {
     <p>
       I'm a Full Stack developer specializing in building scalable real-time applications. I'm able
       to participate from the conceptualization phase of a project to its deployment in production.
-      Currently i'm working halftime in the Free and Hanseatic City of Hamburg at{' '}
+      Currently I am working halftime in the Free and Hanseatic City of Hamburg at{' '}
       <a href="https://www2.dataplan.de/" target="_blank" rel="noreferrer">
         Dataplan GmbH
       </a>
