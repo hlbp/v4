@@ -135,12 +135,18 @@ const About = () => {
     'JavaScript',
     'Typescript',
     'ReactJS',
-    'CI/CD',
     'Docker',
     'Kubernetes',
+    'Nginx',
     'Gitlab',
     'Github',
-    'Nginx',
+    'CI/CD',
+    'MongoDB',
+    'HTTP2',
+    'Socket.IO',
+    'WebRTC',
+    'OAuth2',
+    'OpenID Connect',
   ];
 
   return (
