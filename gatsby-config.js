@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Helmer Barcos is a Full Stack Developer who specializes in building bridges between humans and machines.',
     siteUrl: 'https://barcos.co', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/demo.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@HelmerBarcos',
   },
   plugins: [
