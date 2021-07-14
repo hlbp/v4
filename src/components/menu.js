@@ -266,9 +266,9 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            {/* TODO <a href="/resume.pdf" className="resume-link">
               Resume
-            </a>
+            </a> */}
           </nav>
         </StyledSidebar>
       </div>

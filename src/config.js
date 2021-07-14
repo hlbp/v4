@@ -7,8 +7,12 @@ module.exports = {
       url: 'https://github.com/hlbp',
     },
     {
-      name: 'Gitlab',
+      name: 'GitLab',
       url: 'https://gitlab.com/HelmerBarcos',
+    },
+    {
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/8649945/helmer-barcos',
     },
     {
       name: 'Instagram',
@@ -25,14 +29,15 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
-      url: '/#projects',
-    },
+    // TODO
+    // {
+    //   name: 'Experience',
+    //   url: '/#jobs',
+    // },
+    // {
+    //   name: 'Work',
+    //   url: '/#projects',
+    // },
     {
       name: 'Contact',
       url: '/#contact',
