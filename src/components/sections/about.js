@@ -159,7 +159,7 @@ const About = () => {
             <p>
               My name is Helmer! <br></br>
               <br></br>I am a Colombian guy living in Hamburg (Germany) and I enjoy building tools
-              that allows a perfect communication between humans and machines. My experience in web
+              that allow a perfect communication between humans and machines. My experience in web
               development started in the summer of 2016 when I decided to learn how to develop
               applications for iOS with swift.
             </p>
