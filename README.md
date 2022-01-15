@@ -61,22 +61,44 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
 ## 🚀 Building and Running for Production
 
+o. Install dependencies If needed. go to the project and
+
+```sh
+npm install
+```
+
 1. Generate a full static production build
 
    ```sh
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site as it will appear once deployed
 
    ```sh
    npm run serve
    ```
 
-1. Start with pm2. Make sure you have pm2 installed. [How to install pm2](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
+3. Start with pm2. Make sure you have pm2 installed. [How to install pm2](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
 
    ```sh
    pm2 --name SOME_NAME start npm -- run serve
+   ```
+
+## 🚀 Building and Running for Production (Ubuntu on arm64)
+
+1. Install Node
+
+   - Update the sources. Last node LTS is 16.X - `curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -` NOTE: change trhe 16.x if needed
+   - Install nodejs `sudo apt-get install -y nodejs`
+   - Confirm installation `which node` - Output should be `/usr/bin/node`
+
+2. Start with pm2. Make sure you have pm2 installed. [How to install pm2](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
+
+3. Install dependencies. go to the project and
+
+   ```sh
+   npm install
    ```
 
 ## 🎨 Color Reference
